@@ -15,7 +15,7 @@ body {
     height: 100vh; /* Preenche a altura total da viewport */
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
-    background-image: url('MichaelBunnyMyers/Myers final.jpg');/* Substitua 'sua_imagem.jpg' pelo nome exato da sua imagem */
+    background-image: url('https://github.com/ToriBrum/MichaelBunnyMyers/blob/main/Myers%20final.jpg');/* Substitua 'sua_imagem.jpg' pelo nome exato da sua imagem */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     background-size: 100%; /* Ajusta a imagem para cobrir toda a área */
     background-position: center; /* Centraliza a imagem */
