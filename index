@@ -1,0 +1,89 @@
+hello world
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="personalizado.css">
+    <title>Ser Supremo Myers</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Michael Myers: O coelhinho-leão.
+        </h1>
+        <p class="subtitulo">
+            Um jovem coelho, com a habilidade especial de stalkear todos.
+        </p>
+        <style>
+            header {
+              border-bottom: 2px solid black;
+              padding: 20px;
+              background-color: #f0f0f0;
+            }
+          </style>
+    </header>
+    <main>
+        <form action="resultados.html" method="get" class="barra-de-pesquisa">
+            <input type="text" name="q" placeholder="Fareje sua dúvida">
+            <button type="submit">Farejar!</button>
+        </form>
+    <section class="listas">
+        <section class="racoes">
+            <div class="item-resultado">
+                <div class="texto-principal">
+                <h2>Rações recomendadas</h2>
+                <p class="descricao">Nessa seção irei listar as principais rações favoritas do Mestre do Universo. Vale reforçar que em média o Ser Supremo consome 2kg de ração por mês.</p>
+                <p class="paragrafo">
+                    <a href="https://www.petlove.com.br/racao-nutropica-natural-para-coelho-filhote---500gr-3103553/p" target="_blank">Ração Nutrópica para Coelhos Adulto, 5kg - R$284,31</a>
+                </p>
+                <p>
+                    <a href="https://www.cobasi.com.br/racao-nutropica-para-coelho-adulto-super-premium-3733407/p?idsku=733407" target="_blank">Ração Nutrópica para Coelhos Adultos, 1,2kg - R$89,90</a>
+                </p>
+                <p>
+                    <a href="https://www.cobasi.com.br/racao-coelho-funny-bunny-supra-3518123/p?idsku=518123" target="_blank">Ração Funny Bunny para Roedores Adultos, 1,8kg - R$50,90</a>
+                </p>
+                <p>
+                    <a href="https://www.cobasi.com.br/alimento-super-premium-com-frutas-realfriends-coelho-zootekna-3946133/p?idsku=946133" target="_blank">Alimento Premium Zootekna, 500g - R$32,99</a>
+                </p>
+                </div>
+            </div>
+        </section>
+        <section class="brinquedos">
+            <div class="item-resultado">
+                <div class="container">
+                    <h2 class="descricao">Brinquedos Anti-Destruição</h2>
+                    <p class="descricao">
+                        Nessa parte encontramos os principais controladores de danos.
+                    </p>
+                    <p>
+                        <a href="https://www.amazon.com.br/POPETPOP-Empilhamento-Brinquedos-Interativos-Brinquedo/dp/B0CD1C6G3D" target="_blank">Copos para empilhar - R$178,29</a>
+                    </p>
+                    <p>
+                        <a href="https://www.casadoscoelhosecia.com.br/produtos/feno-sabores/" target="_blank">Feno - R$ 11,99</a>
+                    </p>
+                    <p>
+                        <a href="https://www.petz.com.br/produto/brinquedo-ferplast-goodbite-tiny-e-natural-para-roedores-cenoura-85731" target="_blank">Brinquedo mordedor - R$27,99</a>
+                    </p>
+                    <p>
+                    <a href="https://shopee.com.br/product/191441908/25919751346?gads_t_sig=VTJGc2RHVmtYMTlxTFVSVVRrdENkVHQ3ZkZSUTMrR3pBWmZZNzdrcnRBMmVvSkY0NkJ2SkpTYTJ5dUs3RnBoeXFsVnp0VjI0SHIzYU9mbFdab3lJSFlEVTU0S0pXSktpNUtnM2ZibU9sbE45VExWYU1JZGJLUlFRWXlrZEZLdDc5eU83Z2pyMC9iUGl4T2VINTJ3YVBRPT0&srsltid=AfmBOoq47hCweXXxJMkvuuLW6zcQgaE86PymtrCMqVLrRGCDN5YbKi1Lbuw" target="_blank">Túnel para esconderijo - R$29,99</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <div class="wrapper">
+        <main>
+            </main>
+        <footer>
+            <p>Direitos Reservados ao Dominador de Mundos mais fofo do Universo.</p>
+            <p>Neném da Mamãe© 2024. Todos os seus direitos reservados à ele. </p>
+            <audio id="myAudio" controls autoplay>
+                <source src="Halloween Michael Myers musica tema do filme !.mp3" type="audio/mp3"
+            </audio>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+    <script src="dados.js"></script>
+</body>
+</html>
