@@ -74,6 +74,12 @@ section {
     margin-top: -2rem;
 }
 
+.topicos {
+    font-family: "Syne Mono";
+    font-size: medium;
+    font-weight: bold;
+}
+
 .search-bar button {
     /* Estilos para o botão */
     background-color: #000000; /* Cor de fundo verde */
