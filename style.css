@@ -17,7 +17,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #2b2b2b;
-    background-image: url(assets/Myers\ final.jpg) ;
+    background-image: url(myers wallpaper.jpg) ;
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
@@ -27,8 +27,8 @@ body {
 h1 {
     font-family: "Lacquer", normal;
     font-weight: normal;
-    font-size: 4rem;
-    color: black;
+    font-size: 3rem;
+    color: white;
     text-align: center;
 }
 
@@ -58,20 +58,23 @@ section {
 .header {
     background: #ffffff;
     border-radius: 0.6rem;
-    padding: 2rem;
+    padding: 1rem;
     margin: auto;
     margin-bottom: -1rem;
     box-shadow: 7px 9px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-    width: 70rem;
+    width: 60rem;
     text-align: center;
+    background-image: url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTNwZzQzNTJxN21hZGNyY3kyZjh6anAxMHpmYTM5emN4NHdkd3poeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/q4hS8vfKZxKRG/giphy.gif');
+    background-size: cover;
 }
 
 .subtitulo {
     font-family: "Nanum Gothic Coding";
-    font-size: x-large;
+    font-size: large;
     text-align: center;
     margin-top: -2rem;
+    color: white;
 }
 
 .topicos {
@@ -82,12 +85,25 @@ section {
 
 .search-bar button {
     /* Estilos para o botão */
-    background-color: #000000; /* Cor de fundo verde */
-    color: white;
-    padding: 10px 20px;
+    background-color: #a89d01; /* Cor de fundo verde */
+    color: #000000;
+    padding: 0.7rem;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
-  }
+}
+
+.search-bar input[type="text"] {
+    border: 2px solid #ccc; /* Borda sólida de 2px */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 0.7rem;
+    width: 30rem; /* Ajuste o tamanho conforme necessário */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Sombra para um efeito mais 3D */
+    background-image: url(assets/7373.jpg); /* Substitua pela sua imagem */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .listas {
     display: flex;
