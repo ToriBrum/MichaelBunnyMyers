@@ -99,7 +99,7 @@ section {
     padding: 0.7rem;
     width: 30rem; /* Ajuste o tamanho conforme necessário */
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Sombra para um efeito mais 3D */
-    background-image: url(assets/7373.jpg); /* Substitua pela sua imagem */
+    background-image: url(7373.jpg); /* Substitua pela sua imagem */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
