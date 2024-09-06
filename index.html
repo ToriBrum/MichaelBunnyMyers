@@ -4,37 +4,47 @@ hello world
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Ser Supremo Myers</title>
+    <link rel="stylesheet" href="seraquevai.css">
+    <title>Será?</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>
             Michael Myers: O coelhinho-leão.
         </h1>
         <p class="subtitulo">
             Um jovem coelho, com a habilidade especial de stalkear todos.
         </p>
-        <style>
-            header {
-              border-bottom: 2px solid black;
-              padding: 20px;
-              background-color: #f0f0f0;
-            }
-          </style>
     </header>
     <main>
-        <form action="resultados.html" method="get" class="barra-de-pesquisa">
-            <input type="text" name="q" placeholder="Fareje sua dúvida">
-            <button type="submit">Farejar!</button>
-        </form>
+        <section class="search-bar">
+            <form action="resultados.html" method="get">
+              <input type="text" name="q" placeholder="Localize um crime...">
+              <button type= "submit" >Farejar!</button>
+            </form>
+          </section>
     <section class="listas">
-        <section class="racoes">
-            <div class="item-resultado">
-                <div class="texto-principal">
-                <h2>Rações recomendadas</h2>
-                <p class="descricao">Nessa seção irei listar as principais rações favoritas do Mestre do Universo. Vale reforçar que em média o Ser Supremo consome 2kg de ração por mês.</p>
-                <p class="paragrafo">
+        <section>
+            <div class="fundo-texto">
+                <h2>Uma biografia peluda</h2>
+                    <p>
+                        Michael "Brum" Myers, é um coelho-leão residente da Zona Sul de São  Paulo, com apenas 5 aninhos de idade. Nascido no dia 23/01/2019 (o verdadeiro 2319), recebeu esse nome em homenagem ao personagem Michael Myers da série de filmes Halloween©, personagem favorito do universo de terror de sua mãe.
+                    </p>
+                    <p>
+                        Myers, como é comumente chamado em seu reino, possui características únicas que lembram o personagem. Com seu rosto parecendo uma máscara, e pelagem parecendo que usa um macacão. Possui uma linda juba, afinal é o rei de todo o reino da sua casa.
+                    </p>
+                    <p>Nosso Dominador de Mundos tem além de todas as características previamente citadas, a incrível habilidade de sempre te observar de alguma forma. Quando você menos esperar, ele estará lá.
+                    </p>
+                    <p>Quando ele precisa de um controle de danos, após destruir todos os travesseiros de sua mãe, se resguarda em seu refúgio principal, na mais adorável e perfeita forma de pãozinho, te olhando intensamente. Fazendo com que você repense todas as suas escolhas.</p>
+                    <p>Nesse site, eu, sua mãe, dedico com todo o amor e carinho para ele as melhores informações para todos os amantes de coelhos, assim como eu.
+                    </p>
+            </div>
+        </section>
+        <section>
+            <div class="fundo-texto">
+                <h2>Alimentos recomendados</h2>
+                <p>Nessa seção irei listar os alimentos favoritos do senhor supremo.</p>
+                <p>
                     <a href="https://www.petlove.com.br/racao-nutropica-natural-para-coelho-filhote---500gr-3103553/p" target="_blank">Ração Nutrópica para Coelhos Adulto, 5kg - R$284,31</a>
                 </p>
                 <p>
@@ -46,14 +56,14 @@ hello world
                 <p>
                     <a href="https://www.cobasi.com.br/alimento-super-premium-com-frutas-realfriends-coelho-zootekna-3946133/p?idsku=946133" target="_blank">Alimento Premium Zootekna, 500g - R$32,99</a>
                 </p>
-                </div>
+
             </div>
         </section>
-        <section class="brinquedos">
-            <div class="item-resultado">
-                <div class="container">
-                    <h2 class="descricao">Brinquedos Anti-Destruição</h2>
-                    <p class="descricao">
+        <section>
+            <div class="fundo-texto">
+                <div>
+                    <h2>Brinquedos Anti-Destruição</h2>
+                    <p>
                         Nessa parte encontramos os principais controladores de danos.
                     </p>
                     <p>
@@ -75,13 +85,13 @@ hello world
     <div class="wrapper">
         <main>
             </main>
-        <footer>
-            <p>Direitos Reservados ao Dominador de Mundos mais fofo do Universo.</p>
-            <p>Neném da Mamãe© 2024. Todos os seus direitos reservados à ele. </p>
-            <audio id="myAudio" controls autoplay>
-                <source src="Halloween Michael Myers musica tema do filme !.mp3" type="audio/mp3"
-            </audio>
-        </footer>
+            <footer>
+                <p>Direitos Reservados ao Dominador de Mundos mais fofo do Universo.</p>
+                <p>Neném da Mamãe© 2024. Todos os seus direitos reservados à ele. </p>
+                <audio id="myAudio" controls autoplay loop>
+                  <source src="Halloween Michael Myers musica tema do filme !.mp3" type="audio/mp3">
+                </audio>
+              </footer>
     </div>
     <script src="app.js"></script>
     <script src="dados.js"></script>
